@@ -2,13 +2,13 @@
 
 //fetch('https://localhost:8000/api/gallery')
 
-fetch('https://travel-agency2020.herokuapp.com/api/gallery')
+fetch('https://travel-agency2020.herokuapp.com/api/images')
 .then(function(response) {
   return response.json();
 })
-.then(function(photos) {
+.then(function(images) {
 
-const imgList = photos;
+const imgList = images;
 
 let imgTemplate = ''; 
 
