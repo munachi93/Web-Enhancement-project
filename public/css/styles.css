@@ -236,3 +236,8 @@ header h2{
     margin-top: -100px;  
     
   }
+
+ .full-vh img {
+    height: 500px;
+    width: 500px;
+ } 

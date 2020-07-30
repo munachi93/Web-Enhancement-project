@@ -82,8 +82,8 @@ app.get('/api/gallery', function(request, response){
 
   // response.json(animals);
 
-  Gallery.find(function(error, result) { 
-    response.json(result);
+  Gallery.find(function(error, images) { 
+    response.json(images);
   });
 
 })

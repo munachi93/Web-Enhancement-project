@@ -1,6 +1,6 @@
 
 
-//fetch('https://localhost:8000/api/gallery')
+//fetch('http://localhost:8000/api/gallery')
 
 fetch('https://travel-agency2020.herokuapp.com/api/gallery')
 .then(function(response) {
@@ -10,10 +10,7 @@ fetch('https://travel-agency2020.herokuapp.com/api/gallery')
 
 const imgList = images;
 
-let imgTemplate = ''; 
-
-})
-    
+let imgTemplate = '';    
 // Flex container for images
 const gallery = document.querySelector('.gallery'); 
 
@@ -27,8 +24,11 @@ for (let i = 0; i < imgList.length; i++){
 
   // imgTemplate gradually grows as each HTML img is added to the existing string
   
-  imgTemplate += `<a href= ${imgList[i].website}><img src="${imgList[i].fileName}" alt= "${imgList[i].title}"><div class= "desc"> ${imgList[i].description}</div></a>`;
+  imgTemplate += `<a href= ${imgList[i].id}><img src="images/${imgList[i].fileName}" alt= "${imgList[i].title}"><div class= "desc"> ${imgList[i].description}</div></a>`;
   
 }
 // Add's HTML img string to gallery container
 gallery.innerHTML = imgTemplate;
+
+})
+
