@@ -2,7 +2,7 @@
 
 //fetch('https://localhost:8000/api/gallery')
 
-fetch('https://travel-agency2020.herokuapp.com/api/images')
+fetch('https://travel-agency2020.herokuapp.com/api/gallery')
 .then(function(response) {
   return response.json();
 })
