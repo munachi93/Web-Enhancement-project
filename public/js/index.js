@@ -1,8 +1,8 @@
 
 
-fetch('https://localhost:8000/api/gallery')
+//fetch('https://localhost:8000/api/gallery')
 
-//fetch('https://animals-heroku-atlas.herokuapp.com/api/gallery')
+fetch('https://gallery-heroku-atlas.herokuapp.com/api/gallery')
 .then(function(response) {
   return response.json();
 })
