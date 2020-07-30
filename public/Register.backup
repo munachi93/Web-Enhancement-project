@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muna Eseonu">
+    <meta name="date" content="July 24,2020">
+    <meta name="course module" content="cPRG-210-XM1- Web Development">
+    <meta name="assignment" content="Assignment 2">
+    
+    <title> Zoom Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <div><img class="logoo" src="https://logodix.com/logo/14441.jpg" alt="logoo">
+    
+    </div>
+
+     <!-- Navigation-->
+        <div class="container">
+            <div class="nav">
+                <div class="right-side"></div>
+
+
+                    <div class="nav-link">
+                        <a href="index.html">HOME</a>
+                    </div>
+                        
+                    <div class="nav-link">
+                        <a href="Register.html">REGISTRATION</a>
+                    </div>
+
+                    <div class="nav-link">
+                        <a href="Login.html">LOGIN</a>
+                    </div>
+
+                    <div class="nav-link">
+                        <a href="index.html#mailing address">CONTACT US</a>
+                    </div>
+
+                    <div class="nav-link">
+                        <a href="gallery.js">GALLERY</a>
+                    </div>
+
+                </div>                       
+                
+
+            </div>
+
+        </div>  
+
+        
+</head>
+<body>
+
+    <header class="Register">
+
+    </header>
+
+     
+    
+    <div class="placement">
+        <h1>REGISTER HERE
+ 
+        </h1>
+    </div>
+<!--error validation code-->
+    <div id="error"></div>
+
+    <!-- Form code which gets information from the user-->
+      
+    <form id= "form" action="/" method="GET">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <p>Full Name:<input type="text" id="fullName" name="fullName" required></p>
+            <p>Email Address:<input type="email" id="Email" name="Email" required></p>
+            <p>Password:<input type="password" id="Password" name="Password"></p> 
+            <p>Confirm Password:<input type="password" id="confirmPassword" name="confirmPassword"></p>
+        
+            <button type="reset">Reset</button>
+            <button type="submit" id="submit">Submit</button>
+        </fieldset>  
+    
+
+    
+    </form>
+          
+
+</body>
+
+<footer>
+    &copy; 2020 Zoom Travel Agency
+</footer>
+</html>

@@ -1,0 +1,238 @@
+
+/**styles every content in the head*/
+head {
+    margin: auto;
+}
+
+/** navigation link styling*/
+
+.nav   {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    
+
+}
+
+.right-side {
+    display: flex;
+}
+
+.company{
+    display:flex;
+}
+
+.nav > .right-side > div {
+    margin-right: 15px;
+    font-size: 1em; 
+    text-transform: uppercase;
+}
+
+.nav-link {
+    height:22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link a {
+    color: lightpink;
+    text-decoration: none;
+    transition: color 0.6s
+
+}
+<element class= "nav-link" :hover>
+.nav-link:hover {
+    border-bottom: 1px solid black;
+
+}
+.nav-link a:hover {
+    color:black;
+}
+<element class = "nav-link" :active>
+.nav-link a:active{
+    background-image: (black); 
+}
+.current{
+    background-image: (black);
+    
+  }
+/** this style the home page header*/
+header {
+    display: flex;
+    
+    justify-content: center;
+    
+    text-align: justify;
+    
+    height:85vh;
+    margin: 0;
+    
+    
+ 
+    
+    background-image: url(https://picsum.photos/id/645/2509/1673);
+
+    background-size: cover;
+
+    background-position: center;
+    
+    max-width:auto;
+}
+
+/**styles existing content in the body of every page */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: centered;
+    justify-content: center;
+    
+    background: linear-gradient(45deg, white);
+    color: black;
+    
+    
+   
+    margin:auto;
+
+    min-height: ;
+    
+}
+/**Registration page css style*/
+.Register{
+
+
+    display: flex;
+    
+    justify-content: center;
+    
+    text-align: justify;
+    
+    height:100vh;
+    margin: 0;
+    
+    
+  
+    background-image: url(https://picsum.photos/seed/picsum/1000/400);
+    background-size: cover;
+
+    background-image height: ;
+
+    background-position: center;
+
+    max-width: 
+
+    
+
+}
+/**Login page css style*/
+.Login{
+
+
+    display: flex;
+    
+    justify-content: center;
+    
+    text-align: justify;
+    
+    height:100vh;
+    margin: 0;
+    
+    background-image: url(https://picsum.photos/seed/picsum/1000/600/);
+
+    background-size: cover;
+
+    background-image height:;
+
+    background-position: center;
+
+    max-width: 400vh;
+    
+}
+/** footer style across every page */
+footer{
+  text-align: center;
+  
+  
+  background: linear-gradient(45deg, white, grey);
+  color: white;
+
+  height: -1000vh;
+  
+}
+
+.logo{
+    width  : 100px;
+    height : 100px;
+    padding: 2px;
+    
+    /**left or right**/
+    float  : left; 
+    margin-right: -2000px; /*used to adjust margins*/
+    border: 15px solid black;
+    shape-outside: circle();
+    border-radius: 50%;
+}
+
+.logoo{
+    width  : 100px;
+    height : 100px;
+    padding: 2px;
+    
+    /**left or right**/
+    float  : left; 
+    margin-right: -2000px; /*used to adjust margins*/
+    border: 15px solid black;
+    shape-outside: circle();
+    border-radius: 50%;
+}
+/**Gallery page css style*/
+.gallery {
+    display: flex;
+    justify-content: center;
+
+    border:1px solid;
+
+    max-width: 800px;
+    margin: auto;
+
+    
+}
+/**mainpage content h2 header*/
+
+header h2{
+    display: flex;
+    
+    justify-content: center;
+    
+    text-align: justify;
+}
+
+/** IMage Gallery style*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+    max-width: 800px;
+    margin: auto;
+  }
+/**destination Gallery image style*/
+  .gallery img {
+    margin: 20px;
+    height: 500px;
+    width: 750px;
+    float: center;
+    border: 10px solid peachpuff;
+    
+  }
+/** styling for Decription */
+  .desc {
+    font-weight: bold;
+    color: lightcyan;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0em 0em 0;
+    display: flex;
+    margin-top: -100px;  
+    
+  }
